@@ -158,6 +158,7 @@ public class TestBase {
 		  }catch(StaleElementReferenceException e)
 			{
 				//e.printStackTrace();
+			    System.out.println("No change");
 			}
 		
 	}
